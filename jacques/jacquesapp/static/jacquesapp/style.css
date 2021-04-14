@@ -2,10 +2,36 @@
   background-color: #333333;
 }
 
+
 .content {
   max-width: 500px;
   margin: auto;
   color: #cccccc;
   font-family: monospace, sans-serif;
   padding: 5% 0 0 0;
+}
+
+
+@media (max-width: 426px) {
+  .content {
+    max-width: 500px;
+    margin: auto;
+    color: #cccccc;
+    font-family: monospace, sans-serif;
+    padding: 5% 2% 0 2%;
+  }
+}
+
+.video-responsive {
+    overflow:hidden;
+    padding-bottom:56.25%;
+    position:relative;
+    height:0;
+}
+.video-responsive iframe {
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
 }
